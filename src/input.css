@@ -4,6 +4,10 @@
 
 @layer base{
     body{
-        @apply text-lg
+        @apply text-lg font-hanken-grotesk
+    }
+
+    img{
+        @apply inline-block
     }
 }
