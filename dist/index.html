@@ -22,25 +22,25 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body class="flex min-h-screen flex-col items-center bg-white laptop:justify-center">
-    <main class="flex flex-col mobile:w-[375px] laptop:flex-row">
+    <main class="flex flex-col mobile:w-[375px] laptop:w-auto laptop:flex-row">
       <div
-        class="flex flex-col items-center text-center mobile:py-5 gap-y-4 bg-gradient-blue-lavender rounded-b-3xl text-light-lavender"
+        class="flex flex-col items-center text-center mobile:py-5 gap-y-4 laptop:gap-y-12 laptop:w-[375px] laptop:h-[500px] laptop:rounded-3xl bg-gradient-blue-lavender rounded-b-3xl text-light-lavender"
       >
-        <span class="font-bold">Your Result </span>
+        <span class="font-bold laptop:text-2xl">Your Result </span>
         <div
-          class="flex flex-col items-center justify-center rounded-full border w-[125px] h-[125px] bg-gradient-violet-royal border-light-slate-blue"
+          class="flex flex-col items-center justify-center rounded-full border w-[125px] h-[125px] laptop:w-[193px] laptop:h-[206px] bg-gradient-violet-royal border-light-slate-blue"
         >
-          <strong class="text-6xl text-white font-extra-bold">76</strong>
+          <strong class="text-6xl laptop:text-8xl text-white font-extra-bold">76</strong>
           <span>of 100</span>
         </div>
-        <span class="text-white font-extra-bold">Great</span>
+        <span class="text-white font-extra-bold laptop:text-2xl">Great</span>
         <p class="px-6">
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
 
-      <div class="flex flex-col mt-4 gap-y-7">
-        <p class="font-bold mx-3">Summary</p>
+      <div class="flex flex-col mt-4 gap-y-7 laptop:gap-y-14 laptop:w-[300px] laptop:h-[500px]">
+        <p class="font-bold mx-3 laptop:text-2xl">Summary</p>
 
         <div class="flex mx-6">
           <span class="text-light-red flex items-center gap-x-3">

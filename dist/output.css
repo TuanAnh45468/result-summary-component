@@ -566,6 +566,10 @@ img {
   height: 46px;
 }
 
+.h-\[206px\] {
+  height: 206px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -580,6 +584,10 @@ img {
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[193px\] {
+  width: 193px;
 }
 
 .flex-col {
@@ -682,6 +690,11 @@ img {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -736,11 +749,78 @@ img {
 }
 
 @media (min-width: 1440px) {
+  .laptop\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .laptop\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .laptop\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .laptop\:h-\[206px\] {
+    height: 206px;
+  }
+
+  .laptop\:w-\[1110px\] {
+    width: 1110px;
+  }
+
+  .laptop\:w-\[375px\] {
+    width: 375px;
+  }
+
+  .laptop\:w-\[735px\] {
+    width: 735px;
+  }
+
+  .laptop\:w-auto {
+    width: auto;
+  }
+
+  .laptop\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .laptop\:w-\[193px\] {
+    width: 193px;
+  }
+
   .laptop\:flex-row {
     flex-direction: row;
   }
 
   .laptop\:justify-center {
     justify-content: center;
+  }
+
+  .laptop\:gap-y-14 {
+    row-gap: 3.5rem;
+  }
+
+  .laptop\:gap-y-12 {
+    row-gap: 3rem;
+  }
+
+  .laptop\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .laptop\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .laptop\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .laptop\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
